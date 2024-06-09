@@ -166,7 +166,7 @@
                 return;
             }
 
-            const { statKills, hpKills } = calculateMonstersToKill(currentXp, targetLevel, mobHp);
+            let { statKills, hpKills } = calculateMonstersToKill(currentXp, targetLevel, mobHp);
 		
 	    statKills = statKills === undefined ? 0 : statKills
 	    hpKills = hpKills === undefined ? 0 : statKills
