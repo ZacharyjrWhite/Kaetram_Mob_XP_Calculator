@@ -178,5 +178,5 @@
         }
 
 	function visits(data) {
-		document.getElementById('visits').innerText = response.value;
+		document.getElementById('visits').innerText = data.value;
 	}
