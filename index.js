@@ -167,5 +167,5 @@
             }
 
             const { statKills, hpKills } = calculateMonstersToKill(currentXp, targetLevel, mobHp);
-            document.getElementById("result").innerHTML = `You need to kill ${statKills} monsters for Combat. <br> You need to kill ${hpKills} monsters for HP.`;
+            document.getElementById("result").innerHTML = `You need to kill ${statKills} monsters if you're training a specific combat stat. <br> You need to kill ${hpKills} monsters if you're focusing on HP.`;
         }
