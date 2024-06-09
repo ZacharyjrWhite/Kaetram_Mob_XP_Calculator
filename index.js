@@ -176,3 +176,7 @@
 		
             document.getElementById("result").innerHTML = `You need to kill ${statKills} monsters if you're training a specific combat stat. <br> You need to kill ${hpKills} monsters if you're focusing on HP.`;
         }
+
+	function visits(data) {
+		document.getElementById('visits').innerText = response.value;
+	}
