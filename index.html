@@ -61,15 +61,16 @@
     <div class="container">
         <h1>Monster Kill Calculator</h1>
         <label for="currentXp">Current XP:</label>
-        <input type="number" id="currentXp" min="0" required>
+        <input type="number" id="currentXp" min="0" value="166666" required>
         <label for="targetLevel">Target Level:</label>
-        <input type="number" id="targetLevel" min="2" max="120" required>
+        <input type="number" id="targetLevel" min="2" max="120" value="60" required>
         <label for="mobHp">Mob HP:</label>
-        <input type="number" id="mobHp" min="1" required>
+        <input type="number" id="mobHp" min="1" value="825" required>
         <button onclick="handleCalculate()">Calculate</button>
         <p id="perKill"></p>
+        <p id="expNeeded"></p>
         <p id="result"></p>
     </div>
-    <script src="index.js?2"></script>
+    <script src="index.js?12"></script>
 </body>
 </html>
