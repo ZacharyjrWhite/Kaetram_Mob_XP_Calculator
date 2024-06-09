@@ -145,8 +145,8 @@
                 totalXpNeeded += xpTable[i - 1].xpToNext;
             }
 
-            let statXpNeeded = totalXpNeeded * 0.75;
-            let hpXpNeeded = totalXpNeeded * 0.25;
+            let statXpNeeded = totalXpNeeded / 0.75;
+            let hpXpNeeded = totalXpNeeded / 0.25;
 
             let statKills = Math.ceil(statXpNeeded / mobHp);
             let hpKills = Math.ceil(hpXpNeeded / mobHp);
