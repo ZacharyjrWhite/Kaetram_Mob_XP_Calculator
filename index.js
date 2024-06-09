@@ -150,7 +150,10 @@
 
             let statKills = Math.ceil(statXpNeeded / mobHp);
             let hpKills = Math.ceil(hpXpNeeded / mobHp);
-						
+
+            
+            document.getElementById("expNeeded").innerHTML = `XP needed: ~${totalXpNeeded}`;
+            
             document.getElementById("perKill").innerHTML = `Combat XP per kill: ~${mobHp * 0.75}<br> HP XP per kill: ~${mobHp * 0.25}`;
 						
             return { statKills, hpKills };
